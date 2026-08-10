@@ -1,0 +1,239 @@
+﻿Memo: AI x Economic Development / Real Estate
+From: Shaina
+To: Justin and Jason
+
+
+Context: This memo is intended to be a WIP thought starter on offerings for economic development and real estate. It was initially conceived of from my ULI panel in November, and since then I have yet to see governments approach AI in the holistic way they will need to or real estate developers and asset managers to think about marrying the market trends to their portfolios. This document is intended to be a thought starter on the what and how we might consider going to market together on these ideas. 
+
+
+Trends that could happen[a]
+Claude version
+Themes in more of an oped style
+New human patterns:
+1. Humans use of time 
+   1. More leisure time
+   2. More arts
+2. Humans could live longer
+   1. Aging population
+3. New skills that will succeed
+4. Etc
+
+
+New spatial patterns: 
+5. Use of space will change
+   1. Will data centers need to be near the use for latency in some cases? 
+   2. Logistics
+   3. Delivery
+   4. More need for housing for aging populations
+   5. More need for physical care of an aging population
+6. Transportation will change
+7. Leisure time 
+8. etc
+
+
+New company patterns
+9. Businesses that couldn’t survive before, now could – e.g., restaurants, 
+10. etc
+{maybe we need something on ai trends, e.g., costs)
+
+
+Could we think about this on a horizons strategy? 
+
+
+* Phase 1: Now- 5 years (slow adoption in some industries; tale of two cities on those that adopt and those that dont)
+* Phase 2: 6-10
+* Phase 3: 10+ (agentic everything)
+
+
+
+
+Given these trends… What can I do as a public sector leader to harness the power of AI for my city or state? How can I protect from the downsides? Where am I vulnerable?
+
+
+Comprehensive city or state AI plan for economic development
+
+
+1. Industry mix: Given my current industry mix, where do I have vulnerabilities? Where could I see momentum? What industries do I need to intentionally grow? 
+   1. AI industry (security, models, AI companies, integrators)
+   2. Manufacturing up
+   3. Healthcare up
+   4. Logistics? 
+   5. Bio and medical innovation
+   6. Physical product development
+   7. Live entertainment, sports and the arts
+
+
+2. Jobs strategy: Given the mix of skills my residents have, where do I need to focus on retraining? On base skill building? 
+   1. Retraining
+   2. Critical thinking? 
+   3. etc
+
+
+3. Innovation/ start-up ecosystem: What is the startup opportunity? What opportunities beyond the core models have high growth potential? What startups are getting funded? How can we support the starting and scaling of these companies?
+
+
+4. Real estate impact: Given our current industry mix, where do we have vulnerabilities in our real estate? Will there be large swaths of real estate vacant? How will housing and recreational needs change? 
+   1. Office jobs for prof services down. This could again gut city centers
+   2. Potentially less need for parking structures with AVs
+
+
+5. Infrastructure strategy[b]: What should our data center strategy look like? How does this impact our energy needs? How does AI change patterns for movement of people and goods, and what are the implications 
+   1. Data center strategy
+      1. Energy
+      2. Placement
+      3. Construction jobs
+      4. Fiber infr? 
+   2. Transpo and movement of people and goods
+
+
+[c]
+6. Housing strategy
+   1. Need more for senior citizen strategy
+   2. etc
+
+
+7. Governance (i don’t want to do this, but we might have to)
+   1. Responsible AI? 
+   2. Structure partnerships with [New America] to build this out?
+
+
+8. Operations: How do we integrate AI into our workflows? What roles do we need to build and maintain this functionality? (ReMix bread and butter) (and procurement)
+
+
+9. Maybe something on human experience?
+
+
+Potential deliverables 
+1. Report (tbd on how public this would need to be/ want to be and if we have the credentials)
+   1. AI’s impact on City’s economy (industry make up, workforce, real estate, innovation ecosystem )
+   2. AI implication for future of infrastructure requirements- energy, transportation, water
+   3. Governing in the age of AIl: Diagnostic of AI opportunities for government efficiency
+2. Initial set of [3] Tools (NOTE: not sure how hard each of these are to create)
+   1. Skills builder: A tool to evaluate the vulnerability of current mix of talent across education levels 
+   2. Real estate risk modeler: A tool to evaluate the risk associated with the mix of commercial uses across the city
+   3. Energy scenario planner: A tool to model energy requirements for various data center scenarios
+   4. Etc (others with their existing data? 
+   5. Other tools surfaced through GovOps sprints 
+Future
+3. GovOps sprints (remix current offering) and/ or a Percepta BPO model
+4. Educational, skill building and hackathon workshops
+5. Community- monthly discussion forum
+   1. newsletters
+
+
+Structure:
+* [4] month engagement intense engagement 
+* BPO ongoing engagement
+* Core team:
+   * Shaina: Tech x Policy x Econ Dev
+   * Justin: Design x AI x Digital
+   * Jason: CIO x AI
+   * Brandon: Econ Dev x Management Consulting
+* Expert advisors and partners:
+   * ?? should we add in some based on the deeper dive functional areas?
+      * Brenna Berman (Gov’t IT)
+      * Maurice Classen (Gov’t comms and strategy)
+      * Matt Muench (Skills expertise; JPM, Ballmer)
+      * Josh Sirefman (Real estate)
+      * Rohit Aggarwala on data centers/ energy (
+      * ETc
+   * Harper Reed: Dark factory to build your tools
+* Fees… tbd
+   * Launch mode: $400k per month and you get X tools? 
+      * Staff + experts
+      * Dark factory
+   * Ongoing support
+   * Comps: McKinsey would sell this for $1m/ month
+
+
+Actioning ideas:
+1. 7 page deck leaning hard into the credentials and insight on why this matters (right language on alternative)
+2. Get on phone with [10] diff heads of Econ Dev at the state level, civic committee types, 
+3. If doesn’t hit, then be done?
+4. Could also put in an oped somewhere 
+5. Could also kick the tires on the idea with a few friendlies (e.g., Brenna)
+
+
+Open ideas/ questions
+1. Should/ could this be more productized?
+2. Would we want to partner with someone on this? (e.g., New America? Brookings?)
+3. How “public” would we think this should be? How does this play into growing anti-ai sentiment and what would this mean from a politician standpoint? 
+
+
+Reference
+Are US States Ready for the AI Economy?, BCG
+Public-Service Reform in the Age of AI, Tony Blair Institute
+
+
+
+
+
+
+
+
+RE Platform
+1. Geos that will grow and contract:
+   1. What are the ingredients that will determine if a region is going to grow or contract with AI 
+   2. Industry mix
+   3. skills
+2. Asset classes
+3. New use of space
+[d]
+4. 
+
+
+
+
+
+
+
+Category[e]
+	City/ State Angle
+	RE Investment Angle
+	Geos that will grow and contract
+	
+
+	
+
+	Industry mix
+	
+
+	
+
+	Jobs strategy
+	
+
+	
+
+	Innovation ecosystem
+	
+
+	
+
+	RE impact
+	
+
+	
+
+	Infrastructure strategy
+	
+
+	Evaluate those geos that can
+	Housing strategy
+	
+
+	
+
+	Governance and operations
+	
+
+	
+
+	
+
+[a]imagine fleshing these out to be realistic and provocative over a time horizon. they lay the groundwork for the strategy below
+[b]myth dispelling
+and opportunity creation (e.g., distributed data centers)
+[c]Civic infrastructure-- e.g., libraries
+[d]Haven't built this out, but the idea comes from a few requests I've received from asset managers on how to think about where to invest and where there's risk in their portfolio based on AI. I dont think this is a "how does AI change the workplace" angle
+[e]I think there are similar tools/ analyses that could be used for both types of customers.
