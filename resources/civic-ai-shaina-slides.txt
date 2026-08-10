@@ -1,0 +1,295 @@
+REMIX PARTNERS   ×   ONWARD VENTURES
+Powering AI for inclusive economic growth
+
+An integrated practice that helps states and cities turn the AI transition into durable economic advantage — across industry, place, infrastructure, talent, and government itself.
+Confidential  ·  Prepared for state & local economic development leaders  ·  2026
+1
+
+THE MOMENT
+AI is repricing every regional economy
+And, we have the opportunity to harness it to benefit our communities 
+$19.9T
+AI's cumulative contribution to the global economy through 2030 — ~3.5% of global GDP
+IDC, 2025
+$2.84T
+Potential addition to U.S. GDP by 2030 under rapid generative-AI adoption
+KPMG, 2025
+2.1% → 2.3%
+U.S. potential GDP growth accelerates into the early 2030s as AI compounds
+Goldman Sachs, 2025
+Remix Partners  ×  Onward Ventures      ·      Confidential
+2
+
+THE MOMENT
+All aspects of our economy are going to be impacted 
+Like electrification and the internet, the gains arrive unevenly — by region, by industry, by who prepares.
+Remix Partners  ×  Onward Ventures      ·      Confidential
+
+Talent war and clusters: Next wave of high growth tech clusters will continue to flourish like they did 2006-20. It’s a talent war…for today. Some markets with these clusters will continue pockets of high growth in the nearterm. However, this may be offset by the SWE layoffs on the horizon, and they’re only making a dent in the broader office market. (e.g., AI companies leased 2m sq ft of office space in 2022-4, expected to triple by 2026. This is still only a portion of the 25m vacant). 
+Next wave of downtown office hits: 1/3 (28%) of prime office leases in US downtowns are occupied by professional services and finance industries- each have the potential to decrease workforce, and therefore office needs by up to [X%]. This could also be true for government jobs [stat on 
+Data Centers…. Continued Boom asset class or eventual Bust. Boom: AI continues to grow at the current clip or faster, transforming industries and requiring compute. Bust: We overbuild or our AI becomes much more efficient so we don’t need as much compute. This could lead to stranded assets like old industrial assets outside urban cores, but different than in manufacturing, this could happen much sooner and in the useful life of the asset. 
+Healthcare, in particular patient care, is here for the medium term. Patient facilities continue to grow. Employment is expected to grow by 8.4% in the next decade (fast-growing sector), and while there is an increase in virtual care, many visits still require an in person consultation or monitoring. This could be offset over time by AI cures for caregiving heavy diseases such as Alzheimer's. 
+Manufacturing/ Industrial hubs will thrive… if there’s access to skilled, technical workforce. Tariffs, national security requirements and supply chain vulnerabilities are all leading to the reindustrialization of US manufacturing. However, as AI supports more complex machinery and robotics, the workforce will need to be skilled to manage and fix the machines, and that will be an increasingly important consideration in selecting locations for manufacturing investments. 
+Fewer parking lots= more developable space. As autonomous driving becomes more ubiquitous, urban areas will need less space for parking lots, street parking, etc. 22% of land in cities of 1M+ people is dedicated to parking
+Back office/ call centers will go nearly dark. To the extent there is still physical space for these jobs, they will be nearly totally abandoned. 
+
+Turn this into a page that has the trend on the left and the description of it on the right. the descriptions may need to be de-worded
+
+3
+
+THE STRATEGIC WHITESPACE
+Leaders recognize this seismic shift, but are not yet building proactive strategies to shape it to benefit their economies and citizens
+
+Governments are responding in fragments — a task force here, a chatbot there. Almost none connect industry mix, real estate, infrastructure, workforce, small business, government operations, and safety into one growth plan.
+That integration is the offering.
+< 1 in 5
+economic & workforce development leaders say their state has a well-defined AI strategy
+6%
+are advancing a coordinated plan for AI's economic impact (just 18% for workforce)
+55%
+have stood up a task force or named an official — activity, not yet strategy
+Source: BCG, “Are US States Ready for the AI Economy?” 2025
+Remix Partners  ×  Onward Ventures      ·      Confidential
+This should be on the left side. find headlines to exemplify each bullet point. then find a stat that shows what percent of states have comprehensive AI strategies
+
+To date, the civic and public sector have taken a defensive approach and when taking the offense, the existing playbooks didn’t work.  
+Defensive: New regulation
+Offensive: Data centers with incentives rollbacks
+% of states that have comprehensive AI strategies
+
+This should be on the right side. leave room for a few more bullet points.
+
+
+We can do more. 
+Partner with the hyperscalers on grand challenges for intractable problems
+Point the wealth creation at seeding new companies, funds to support main street in transformation, etc. 
+Digital infrastructure required to enable AI to accurately access and interpret regulation
+Other big, provocative ideas from the appendix
+and, Create the safeguard regulations
+
+4
+
+OUR APPROACH
+One integrated strategy — seven connected lenses
+Economic make-up
+Where the industry mix is exposed — and where it can compound
+Physical implications
+How demand for space and place is being redrawn
+Infrastructure impact
+Data centers, energy, and the movement of people & goods
+Startup & SMB growth
+Seeding the companies and Main Street adoption that create jobs
+Workforce strategy
+Reskilling for the tasks that remain and the ones AI creates
+Operational efficiency
+Putting AI to work inside government itself
+Safety & governance
+Capturing the upside while protecting residents
+Remix Partners  ×  Onward Ventures      ·      Confidential
+Can you make each of these lenses be spokes around a middle hub that says “AI Strategic Growth Plan”? There should be room for 25 words of description under each
+
+
+5
+
+ENGAGEMENT MODEL
+A focused diagnostic, then a durable operating partnership leaving you with an integrated strategy, an initial set of lasting tools, and new capabilities
+PHASE A
+The 4-month intensive
+Assess vulnerability and opportunity across all seven lenses, deliver an integrated strategic plan, and ship the first working tools.
+PHASE B
+The ongoing partnership
+GovOps sprints, tool maintenance, workforce & community programming, and a standing analytics capability — run with you.
+The Plan
+Diagnostic of AI's impact on your economy
+Industry, workforce & real-estate exposure
+Infrastructure, innovation & gov-efficiency map
+Prioritized actions to build the 
+The Tools
+Skills Builder — talent-base vulnerability model
+Real-Estate Risk Modeler — commercial-mix stress test
+Energy Scenario Planner — data-center demand sizing
+The Capability
+Interviews with key stakeholders outside of government
+Workshop with key leaders within the government 
+just clean up the formatting on this. 
+
+
+6
+
+THE TEAM
+[Working name — to be finalized.] — bringing the experience and creativity to build a unique strategy for you
+A joint practice of Remix Partners and Onward Ventures.  [Working name — to be finalized.]
+Shaina
+Technology × Policy × Economic Development
+Justin
+Design × AI × Digital
+Jason
+CIO × AI
+Brandon
+Economic Development × Management Consulting
+Bench depth in econ-dev strategy, applied AI, government operations, and venture-scale company building.
+add in photos from LinkedIn and credentials such as “McKinsey, City of Chicago, Google”
+7
+
+EXPERT ADVISORS & PARTNERS
+Domain depth where the decisions are hardest
+Brenna Berman
+Government IT & civic technology
+CIO, City of Chicago; 
+Maurice Classen
+Government communications & strategy
+Chief of Staff, City of Chicago
+Matt Muench
+Workforce & skills
+JPMorgan, Ballmer Group
+Josh Sirefman
+Real estate & large-scale development
+Google, 
+Rohit Aggarwala
+Data centers, energy & infrastructure
+Harper Reed
+“Dark factory” engineering to build your tools
+Remix Partners  ×  Onward Ventures      ·      Confidential
+add in photos from LinkedIn and credentials such as “McKinsey, City of Chicago, Google”
+
+8
+
+The cities and states that plan now will compound the advantage.
+Remix Partners  ×  Onward Ventures   ·   Confidential
+this feels boring- based on the rest of the deck, can you reframe it?
+9
+
+Appendix
+Deep dives on the seven lenses
+01    Economic make-up
+02    Physical implications
+03    Infrastructure impact
+04    Startup & SMB
+05    Workforce strategy
+06    Operational efficiency
+07    Safety & governance
+these need to be far more nuanced and insightful. adding in claude prompts to run some analyses that can create the insights. 
+10
+
+DEEP DIVE · 01
+Economic make-up: which industries compound, which are exposed
+Given my industry mix — where am I vulnerable, where can I gain momentum, and what do I grow on purpose?
+Grow intentionally: AI itself (security, models, integrators), advanced manufacturing, healthcare, bio & medical innovation.
+Lean into the durable: logistics, physical product development, and live entertainment, sports & the arts.
+Diagnose exposure first — concentration in routine professional services is the clearest near-term risk.
+Up to $2.84T
+potential addition to U.S. GDP by 2030 under rapid adoption — but concentrated in the regions that position for it.
+KPMG, 2025
+Remix Partners  ×  Onward Ventures      ·      Confidential
+update these insights on the LHS
+Example strategies: 
+Manufacturing:
+
+- 
+11
+
+Bull case & bear case, by sector
+Net employment effect on the Chicago metro by 2034 vs. baseline, thousands of jobs.  Bear holds output flat (productivity becomes job cuts); bull lets output expand with competitiveness.
+Bull — output expands
+Cheaper, more competitive output grows demand faster than labor is saved. Gains concentrate in professional & business services, health care, and IT.
+Metro: +120k jobs  (+2.5%)
+Bear — output flat
+Every efficiency gain is banked as headcount reduction. The deepest cuts fall on large operational and back-office sectors and government administration.
+Metro: -417k jobs  (-8.7%)
+Source: Remix Partners × Onward Ventures AI Sector Model. The gap between the two cases is set by the output-response assumption (λ), not the productivity estimate. Planning scenario, not a forecast.
+12
+
+DEEP DIVE · 02
+Physical implications: the geography of demand is being redrawn
+As work and movement change, so does the demand for every kind of space — office, retail, housing, care, and logistics.
+Rising needs: senior housing and physical care, logistics & delivery footprints, and lab / health space.
+Falling needs: routine office space and, as AVs scale, parking structures.
+The play: reposition vulnerable office and retail stock before vacancy compounds in the urban core.
+~330M sq ft
+of net-new U.S. commercial real-estate demand AI could generate over the next decade — even as office jobs stay nearly flat.
+Cushman & Wakefield; Newmark, 2026
+Remix Partners  ×  Onward Ventures      ·      Confidential
+Prompt: Using the same analysis on the sector breakdown, let’s look at the real estate footprint required.  
+13
+
+DEEP DIVE · 03
+Infrastructure: power is the new constraint on growth
+Whether a region can host the AI economy increasingly comes down to electrons — and how fast they can be delivered.
+Data centers could consume 9–17% of U.S. electricity by 2030, up from ~4.5% today — estimates are ~60% higher than two years ago (EPRI).
+Site selection has flipped: delivering 300+ MW in under 36 months now outweighs fiber connectivity (CBRE).
+Plan together: generation mix, siting, construction jobs, water, and the movement of people & goods.
+U.S. data-center grid-power demand (GW)
+Source: S&P Global / 451 Research, 2025
+Remix Partners  ×  Onward Ventures      ·      Confidential
+14
+
+DEEP DIVE · 04
+Startups & small business: where AI becomes local jobs
+Productivity gains stay local when small businesses adopt AI and new companies form and scale at home.
+Adoption is inflecting: 55% of small businesses used AI in 2025, up from 39% — and 47% → 68% among 10–100-employee firms (Thryv).
+The enterprise–SMB gap is closing fast — historically a full tech cycle, now roughly a year (SBA Office of Advocacy).
+Two moves: seed the startup ecosystem beyond the core models, and drive Main Street adoption support.
+Remix Partners  ×  Onward Ventures      ·      Confidential
+Example strategies: 
+provide matching funds for AI apprentices
+Just like the “Coding Bootcamps” of the 2010s, spin up “AI for SMBs” to train the next generation of CTOs for industry 
+Attract AI focused private equity capital to invest in local companies 
+- 
+Justin’s analysis on SMBs
+
+Prompt: [Something on a review of capital]
+15
+
+DEEP DIVE · 05
+Workforce: prepare for the tasks that remain — and the ones AI creates
+The near-term squeeze is real and uneven — but technology has always created far more work than it has erased.
+The pinch is at the entry level: AI-adopting firms cut junior hiring ~13% (Cornell); leaders flag heavy exposure in entry-level white-collar tasks.
+History rhymes: ~60% of today's jobs are in occupations that didn't exist in 1940 (Goldman Sachs).
+Strategy: reskill toward judgment, problem-framing, and human-facing roles — aligned to the local industry plan.
+~60%
+of today's jobs are in occupations that did not exist in 1940 — the case for building skills, not bracing for loss.
+Goldman Sachs
+Remix Partners  ×  Onward Ventures      ·      Confidential
+Example strategies: 
+Just like the “Coding Bootcamps” of the 2010s, spin up “AI for SMBs” to train the next generation of CTOs for industry 
+Support the creation of new apprenticeships and on the job training for entry level talent
+Start enterprises at local universities and community colleges who have a mission for training
+Prompt 1: Create an analysis that shows what percent of jobs that existed before each technological revolution still existed in the following era. It seems like goldman just did a version of this? What methodology would you use? 
+
+Prompt 2: [this would be around looking at job categories] 
+
+
+16
+
+DEEP DIVE · 06
+Operational efficiency: AI inside government itself
+The fastest, most controllable win is applying AI to the work of government — faster service, lower cost-to-serve.
+It's already working: Texas's AG built an AI search tool for child-support caseworkers; New Jersey runs a secure AI Assistant with a Chief AI Strategist.
+Pennsylvania piloted enterprise GenAI with Carnegie Mellon; Utah stood up the first state AI policy office.
+Our lane: GovOps sprints and a BPO-style model to integrate, run, and maintain it — including procurement.
+1 in 5
+or fewer states report a well-defined AI strategy — the operational head-start is still open.
+BCG, 2025
+Remix Partners  ×  Onward Ventures      ·      Confidential
+Example strategies: 
+Just like the “Coding Bootcamps” of the 2010s, spin up “AI for SMBs” to train the next generation of CTOs for industry 
+Support the creation of new apprenticeships and on the job training for entry level talent
+Start enterprises at local universities and community colleges who have a mission for training
+Prompt 1: Create a list of use cases where 
+
+Prompt 2: Help me understand the infrastructure that would be required to better access government information. For example, most regulations are not digitally coded (and tied back to 
+
+
+17
+
+DEEP DIVE · 07
+Safety & governance: capture the upside, protect residents
+Governance is the floor that makes the whole growth agenda politically durable.
+Responsible-AI guardrails for government use, procurement standards, and transparency with residents.
+Navigate rising anti-AI sentiment with credible, resident-first governance — not silence.
+Optional structured partnerships (e.g., New America, Brookings) to build lasting institutional capacity.
+Trust = license
+credible guardrails are what let leaders pursue the upside without political risk.
+Practice point of view
+Remix Partners  ×  Onward Ventures      ·      Confidential
+18
