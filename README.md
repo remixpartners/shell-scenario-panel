@@ -1,13 +1,14 @@
 # Shell Scenario Panel
 
-A Claude Code-powered Shell-style scenario planning system with multi-specialist consultation, worldview integration, and rigorous documentation enforcement.
+A Claude Code-powered Shell-style scenario planning system with multi-specialist consultation, a dedicated impact analysis layer, worldview integration, and rigorous documentation enforcement.
 
 ## Overview
 
 This is a structured scenario planning tool based on the Shell methodology, featuring:
-- **Dr. Michelle Wells** (Moderator) - Facilitates 8-phase scenario development process
+- **Dr. Michelle Wells** (Moderator) - Facilitates a worldview-first scenario workflow with a dedicated impact translation layer
 - **Worldview Elicitation** - Understands how you think about the topic before exploring scenarios
 - **6 Domain Specialist Consultants** - Diverse expert perspectives (ecology, geopolitics, culture, technology, economics, contrarian)
+- **Impact Translation Cast** - Named composite personas that translate external scenarios into actor-relative consequences
 - **Dr. Anya Petrov** (Research Specialist) - Multi-source research and fact-checking
 - **Dr. Mei Chen** (Quality Analyst) - Automated quality gates prevent regression to generic analysis
 - **Worldview Integration** - Connects scenarios back to your mental model
@@ -24,15 +25,23 @@ This is a structured scenario planning tool based on the Shell methodology, feat
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│  PHASES 1-6: EXTERNAL SCENARIO PLANNING                        │
+│  PHASES 1-5: EXTERNAL SCENARIO PLANNING                        │
 │  Focal question → Predetermined → Uncertainties → Scenarios    │
 │  OUTPUT: 4 divergent scenarios                                 │
 └─────────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
+│  PHASE 6A / 6B: IMPACT → STRATEGY                              │
+│  Translate scenarios into actor-relative consequences, then    │
+│  test preparations, positioning, and response options          │
+│  OUTPUT: impact_analysis.md, strategy_analysis.md              │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
 │  PHASE 7: WORLDVIEW INTEGRATION                                │
-│  Connect scenarios to your mental model                        │
+│  Connect scenarios, impacts, and responses to your lens        │
 │  OUTPUT: worldview_integration.md                              │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -62,12 +71,12 @@ No setup needed — WebSearch is built into Claude Code.
 
 The worldview-elicitor skill must be available in your Claude Code environment. See [Skills Setup](#skills-setup) below.
 
-### 2. Clone and Start Claude Code
+### 2. Clone and Start Your Agent (Claude or Codex)
 
 ```bash
 git clone https://github.com/dbmcco/shell-scenario-panel.git
 cd shell-scenario-panel
-# Start Claude Code conversation
+# Start Claude Code or Codex conversation
 ```
 
 ### 3. Tell Dr. Wells What You Want to Explore
@@ -89,14 +98,96 @@ or
 She will:
 1. Initialize the scenario automatically
 2. **Elicit your worldview** - understand how you think about this topic
-3. Guide you through the 8-phase process
+3. Guide you through the full workflow
 4. Consult specialists as needed
-5. **Integrate scenarios with your worldview** - connect findings to your mental model
-6. Ensure quality and documentation
+5. **Translate scenarios into impact** - what the external futures mean for the relevant actor
+6. **Test strategies or responses** - preparedness, positioning, and other decisions
+7. **Integrate scenarios with your worldview** - connect findings to your mental model
+8. Ensure quality and documentation
 
 **You never need to run scripts manually.** Dr. Wells manages the technical details.
 
-## The 8-Phase Process
+---
+
+## Agent Runbook (Claude/Codex)
+
+Use this section if you are operating as the facilitator agent inside this repo.
+
+### 1. Start the session bootstrap script
+
+```bash
+# Claude sessions
+.claude/session-start.sh
+
+# Codex sessions
+.codex/session-start.sh
+```
+
+Use `--scenario SCENARIO-YYYY-NNN`, `--new`, or `--monitor SCENARIO-YYYY-NNN` as needed.
+
+### 2. Handle resources before interviewing
+
+- Check `resources/` for user-provided files (ignore `README.md`, `.gitkeep`, `.DS_Store`)
+- Ask whether to scan and incorporate those materials
+- If yes, run `.claude/lib/resources-intake.sh "$SCENARIO_ID"`
+- Review `scenarios/active/$SCENARIO_ID/phase_0_discovery/materials_index.md` with the user before proceeding
+
+### 3. Follow the moderator flow and phase gates
+
+- Treat `prompts/moderator.md` as the canonical facilitation sequence
+- Complete Phase 0 deliverables before external analysis:
+- `worldview_model.md`
+- `phase_0_discovery/internal_baseline.md`
+- `phase_0_discovery/context_packet.md`
+- Do not bypass transcript checks, metadata updates, or quality checkpoints
+
+### 4. Use the right instruction file for your agent
+
+- Claude agent instructions: `CLAUDE.md`
+- Codex agent instructions: `CODEX.md`
+
+If there is any conflict, follow the agent-specific file for your runtime.
+
+---
+
+## Recommended Input Documents
+
+Place materials in `resources/` before starting. The panel performs best when grounded in concrete context about your focal topic.
+
+### Required (Scenario Foundation)
+
+| Document | Why It Matters |
+|----------|---------------|
+| **Focal Topic Brief** | 1-2 pages defining what you want to explore, including time horizon (5, 10, 20 years) and geographic/industry scope |
+| **Current State Snapshot** | What the world looks like today in your focal area — statistics, trends, key players, recent developments |
+
+### High-Value (Enriches Scenarios)
+
+| Document | Why It Matters |
+|----------|---------------|
+| **Historical Trend Data** | How your focal area has evolved over the past 5-20 years; patterns reveal what's truly predetermined vs uncertain |
+| **Stakeholder Map** | Key actors (companies, governments, institutions) and their interests; Marcus (geopolitics) and Sarah (economics) need this |
+| **Explicit Constraints** | What you already know is locked in — budgets, infrastructure timelines, regulatory frameworks, demographic shifts |
+| **Prior Analysis** | Existing strategy documents, forecasts, or expert opinions you've gathered; specialists can build on or challenge these |
+
+### Nice-to-Have (Adds Depth)
+
+| Document | Why It Matters |
+|----------|---------------|
+| **Technology Roadmaps** | Capability timelines for relevant technologies; Kenji (futurist) uses these to identify inflection points |
+| **Cultural Context** | How different communities think about your topic; Aisha (anthropologist) grounds scenarios in lived experience |
+| **Contrarian Views** | Perspectives that challenge conventional wisdom; Jamie (contrarian) amplifies these to stress-test scenarios |
+
+### Format Tips
+
+- **Define your time horizon explicitly** — scenarios for 2030 require different inputs than 2050
+- **Include sources and dates** — specialists weight recent data more heavily
+- **Separate facts from assumptions** — label what you know vs what you believe
+- **Multiple perspectives welcome** — conflicting expert views often reveal critical uncertainties
+
+---
+
+## Workflow
 
 ### Phase 0: Worldview Elicitation (NEW)
 
@@ -135,8 +226,11 @@ Create 4 plausible, divergent future scenarios with memorable names
 ### Phase 5: Identify Early Warning Signals
 Define observable indicators for each scenario
 
-### Phase 6: Test Strategies
-Explore strategy performance across scenarios, identify robust approaches
+### Phase 6a: Impact Analysis
+Translate external scenarios into actor-relative consequences using the impact translation cast
+
+### Phase 6b: Test Strategies
+Explore strategy or response performance across scenarios using `impact_analysis.md` as mandatory input
 
 ---
 
@@ -170,6 +264,30 @@ Each specialist brings unique perspective and characteristic blind spots:
 | **Sarah Blackwood** | Economics | Debt dynamics, financial structures, regime shifts |
 | **Jamie O'Sullivan** | Contrarian Provocateur | Hidden risks, fragilities, challenging assumptions |
 
+## Impact Translation Cast
+
+Phase 6a activates a second downstream panel. These personas do not model the world; they translate world change into consequences for a focal actor such as a household, company, customer, school system, or buying committee.
+
+| Persona | Function |
+|---------|----------|
+| **Marisol Vega** | Ledger Keeper: cash flow, affordability, debt service, financial pressure |
+| **Darnell Brooks** | Friction Mechanic: workflow drag, operational friction, execution burden |
+| **Nadia Rahman** | Dependency Cartographer: chokepoints, institutional dependencies, transmission channels |
+| **Dr. Imani Clarke** | Burden Cartographer: who carries cost, stress, coordination, and blame |
+| **Ethan Rowe** | Optionality Conservator: reversibility, sequencing, lock-in, preserved options |
+| **Priya Desai** | Precedent Archivist: structural analogs and how similar actors handled them |
+| **Luis Ortega** | Signal Mason: decision-grade indicators, thresholds, and monitoring bricks |
+| **Jamie O'Sullivan** | Contrarian: cross-cutting challenge role retained in the impact layer |
+
+### Overlay Packs
+
+The impact kernel is mandatory. Overlay packs add more domain-specific seats when the question requires them.
+
+| Overlay | Use For | Added Seats |
+|---------|---------|-------------|
+| **household_personal** | Personal finance, household decisions, partner/school exposure, college-age children, lifestyle choices | Rachel Kim, Monica Alvarez, Dr. Leah Morgan |
+| **commercial_positioning** | Buyer-side product positioning, procurement, operations fit, implementation trust | Aarti Menon, Miguel Salazar, Hannah Stern |
+
 ## Architecture
 
 ### Directory Structure
@@ -189,11 +307,14 @@ shell-scenario-panel/
 │   └── archived/                    # Completed scenarios
 ├── prompts/
 │   ├── moderator.md                 # Dr. Michelle Wells
-│   └── specialists/                 # 6 domain specialists
+│   ├── specialists/                 # 6 domain specialists
+│   └── impact_specialists/          # Impact translation cast
 ├── skills/                          # Bundled Claude Code skills
 │   └── worldview-elicitor/          # Phase 0 elicitation skill
 ├── templates/                       # Scenario document templates
 │   ├── worldview_model.md           # Phase 0 template
+│   ├── impact_analysis.md           # Phase 6a template
+│   ├── strategy_analysis.md         # Phase 6b template
 │   ├── worldview_integration.md     # Phase 7 template
 │   ├── focal_question.md
 │   └── [other templates...]
@@ -217,11 +338,13 @@ scenarios/active/SCENARIO-YYYY-NNN/
 │   ├── scenario_2_[name].md
 │   ├── scenario_3_[name].md
 │   └── scenario_4_[name].md
-├── strategy_analysis.md             # Phase 6: Strategy testing
+├── impact_analysis.md               # Phase 6a: Actor-relative translation
+├── strategy_analysis.md             # Phase 6b: Strategy / response testing
 ├── worldview_integration.md         # Phase 7: Connected to your model
 ├── conversations/                   # Specialist transcripts
 │   ├── ecologist_round1_full.md
 │   ├── economist_round1_full.md
+│   ├── ledger_keeper_impact.md      # Phase 6a
 │   ├── contrarian_worldview_reaction.md  # Phase 7
 │   └── [etc...]
 └── artifacts/                       # Supporting files
@@ -255,7 +378,9 @@ See `skills/README.md` for more details.
 
 The system is built around understanding YOUR perspective:
 - **Phase 0** captures how you think before showing you anything
-- **Phases 1-6** explore the external world objectively
+- **Phases 1-5** explore the external world objectively
+- **Phase 6a** translates external scenarios into actor-relative impact
+- **Phase 6b** tests strategies or responses using that impact layer
 - **Phase 7** translates findings back through your lens
 
 This means scenarios are:
@@ -291,6 +416,7 @@ Automated quality analysis at key checkpoints:
 - Phase 2 completion
 - Phase 3 completion
 - Phase 4 completion
+- Phase 6a completion
 - Executive Summary
 
 Quality Analyst evaluates intellectual integrity and prevents regression to generic analysis.
@@ -321,9 +447,11 @@ Quality Analyst evaluates intellectual integrity and prevents regression to gene
 - **Memorable** - People can recall and reason with them
 - **Personal** - Connected to your worldview, not generic
 
+**Impact is not advice.** It is the actor-relative translation layer between external scenarios and recommendations.
+
 **Worldview integration is not persuasion.** It's helping you see how different futures connect to your existing understanding.
 
-The goal is preparing minds for multiple futures, identifying robust strategies, and making better decisions under uncertainty.
+The goal is preparing minds for multiple futures, identifying actor-level consequences, stress-testing responses, and making better decisions under uncertainty.
 
 ## Usage Tips
 
@@ -343,7 +471,7 @@ Convert your scenario planning outputs into a presentation deck using the keynot
 .claude/export-deck-brief.sh SCENARIO-2025-001
 ```
 
-This consolidates: focal question, predetermined elements, critical uncertainties, all four scenarios, early warning signals, strategy analysis, and key specialist insights.
+This consolidates: focal question, predetermined elements, critical uncertainties, all four scenarios, early warning signals, impact analysis, strategy analysis, and key specialist insights.
 
 ### Copy to your deck
 
